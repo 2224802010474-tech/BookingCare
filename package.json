@@ -1,0 +1,31 @@
+{
+  "name": "webphongkhamonline",
+  "version": "1.0.0",
+  "description": "backend nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "keywords": [
+    "fullstack",
+    "nodejs",
+    "express"
+  ],
+  "author": "Duc",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.2.4",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/node": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "nodemon": "^3.1.11",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.5"
+  }
+}
